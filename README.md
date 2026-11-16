@@ -53,11 +53,26 @@ The button uses the Arduino's internal pull-up configuration, so a separate pull
 4. Select the connected port and upload the sketch.
 5. Press the button to roll the electronic die.
 
+## Testing checklist
+
+After assembling the prototype, verify and record:
+
+- Each face displays the correct pip pattern across repeated rolls.
+- One button press produces exactly one roll after debouncing.
+- Holding the button does not trigger repeated rolls.
+- The outcomes show a reasonable distribution across approximately 50 rolls.
+
+These checks should be completed on the physical prototype before reporting measured results.
+
 ## Future improvements
 
 - Compare software debouncing with hardware debouncing using an RC filter.
 - Add a 7-segment display or 8×8 LED matrix variant.
 - Add battery power and a 3D-printed enclosure for standalone use.
+
+## Contribution
+
+Sole author. Designed the circuit, wrote the firmware, and built and tested the prototype.
 
 ## Author
 
